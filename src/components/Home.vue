@@ -1,18 +1,16 @@
 <template>
   <v-content>
     <section>
-      <v-parallax :src="require('@/assets/hero.jpeg')" height="600">
+      <v-parallax :src="require('@/assets/top.jpg')" height="600">
         <v-layout column align-center justify-center class="white--text">
-          <img src="@/assets/logo.png" alt="Google Dev Group Strasbourg" height="35">
-
-          <h1 class="white--text display-2 text-md-center mt-3">Google Dev Group Strasbourg</h1>
+          <img src="@/assets/logo_alt.png" alt="Google Dev Group Strasbourg" height="255">
 
           <div class="subheading text-md-center mb-3 mt-5">
             Le GDG Strasbourg est un groupe d'échange et de partage autour du développement informatique à Strasbourg.
             <br>
             Nous discutons à propos des technologies qui gravitent autour de Google mais pas que ;)
             <br>
-            Venez nous rejoindre, assister aux sessions, et proposer vos interventions.
+            Venez nous rejoindre, assister aux sessions, et proposer vos interventions !
           </div>
         </v-layout>
       </v-parallax>
@@ -25,7 +23,7 @@
             <h1 class="headline mb-2">Rejoignez une communauté grandissante !</h1>
 
             <span class="subheading text-md-center">
-              GDG Strasbourg compte déjà {{ members_count }} membres sur Meetup<br>
+              GDG Strasbourg compte déjà <!-- {{ members_count }} --> 40 membres sur Meetup<br>
 
               <v-btn color="info" class="mt-4" dark large href="https://www.meetup.com/fr-FR/GDG-Strasbourg/" target="_blank">
                 Je m'inscris
@@ -37,10 +35,9 @@
     </section>
 
     <section>
-      <v-parallax :src="require('@/assets/section.jpg')" height="380">
+      <v-parallax :src="require('@/assets/bottom.png')" height="380">
         <v-layout column align-center justify-center>
-          <div class="headline white--text mb-3 text-xs-center">Web development has never been easier</div>
-          <em>Kick-start your application today</em>
+          <div class="headline black--text mb-3 text-xs-center">Retrouvez bientôt nos prochains événements</div>
         </v-layout>
       </v-parallax>
     </section>

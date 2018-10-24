@@ -1,11 +1,16 @@
 <template>
   <div>
     <!-- Team -->
-    <div class="headline text-xs-center ma-3 grey--text text--darken-2">
+    <!-- <div class="headline text-xs-center ma-3 grey--text text--darken-2">
       <v-icon>mdi-account-star</v-icon> Team
+    </div> -->
+
+    <div class="headline text-xs-center ma-3 grey--text text--darken-2">
+      Contact
     </div>
 
-    <v-container fluid grid-list-lg>
+    <center>Notre site est encore en construction, pour nous contacter : contact@gdgstrasbourg.fr</center>
+   <!--  <v-container fluid grid-list-lg>
         <v-layout row wrap>
           <v-flex xs12 sm6 lg3>
             <v-card color="cyan darken-2" class="white--text">
@@ -87,7 +92,7 @@
             </v-card>
           </v-flex>
         </v-layout>
-      </v-container>
+      </v-container> -->
 
     <!-- Social Networks -->
     <div class="headline text-xs-center ma-3 grey--text text--darken-2">

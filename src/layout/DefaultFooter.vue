@@ -1,6 +1,6 @@
 <template>
   <v-footer dark height="auto">
-    <v-card flat tile class="grey darken-1 white--text text-xs-center">
+    <v-card flat tile class="grey darken-1 white--text text-xs-center" style="width:100%;">
       <v-card-text>
         <v-btn v-for="(social, index) in socials" :key="index" class="mx-3 white--text" icon :href="social.url" target="_blank">
           <v-icon size="24px">{{ social.icon }}</v-icon>
@@ -8,7 +8,7 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin.
+        <a class="white--text" href="/contact">Contactez-nous</a>
       </v-card-text>
 
       <v-card-text class="white--text grey darken-2">
