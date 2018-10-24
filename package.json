@@ -11,8 +11,14 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@mdi/font": "^2.5.94",
+    "axios": "^0.18.0",
+    "moment": "^2.22.2",
+    "v-calendar-scheduler": "^0.7.4",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-moment": "^4.0.0",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.1.9"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
