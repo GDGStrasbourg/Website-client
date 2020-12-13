@@ -1,4 +1,6 @@
-# web-client
+# DEPRECATED
+
+## web-client
 
 > GDG Strasbourg website
 
